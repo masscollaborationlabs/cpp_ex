@@ -30,8 +30,6 @@ SOFTWARE.
 
 #include <stdio.h>
 
-int main(){
-    static x = 45;
+sum(float x, float y){
+    return x + y;
 }
-
-

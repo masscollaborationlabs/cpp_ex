@@ -30,6 +30,6 @@ SOFTWARE.
 
 #include <iostream>
 
-int main(){
-    const x = 45;
+sum(float x, float y){
+    return x + y;
 }
