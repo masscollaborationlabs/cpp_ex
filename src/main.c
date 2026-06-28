@@ -30,8 +30,8 @@ SOFTWARE.
 
 #include <stdio.h>
 
-int main() {
+foo(int a, int b, int c) {
 
-  unsigned x = 10; // acceptable
-  //  signed y = 45;
+  return a + b + c;
+  
 }
