@@ -30,7 +30,8 @@ SOFTWARE.
 
 #include <stdio.h>
 
-sum(int x, int y){
-    return x + y;
+int main(){
+    const x = 45;
 }
+
 
