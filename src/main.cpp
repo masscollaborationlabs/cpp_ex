@@ -28,4 +28,12 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 **/
 
- 
+#include <iostream>
+
+void foo(int a, int b, int c);
+void bar(void);
+
+int main(){
+    foo(2,5,6);
+}
+
