@@ -30,6 +30,8 @@ SOFTWARE.
 
 #include <stdio.h>
 
-sum(float x, float y){
-    return x + y;
+int main() {
+
+  unsigned x = 10; // acceptable
+  //  signed y = 45;
 }
