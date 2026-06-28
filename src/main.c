@@ -33,9 +33,10 @@ SOFTWARE.
 int main() {
 
   for (int i = 0; i < 10; ++i) {
-    {
-      int i = 30;
-      }    
+
+    int i = 30; // scope example C 
+
+    printf("%d ", i); 
     
     }
   
