@@ -31,12 +31,12 @@ SOFTWARE.
 #include <iostream>
 
 
+int foo();
+
 int main() {
 
-  for (int i = 0; i < 10; ++i) {
-
-    int i = 30; // redefinition i syntax error
-    
+  if (int x = foo()) { // foo has been initialized
+    // ...
     }
   
 }
