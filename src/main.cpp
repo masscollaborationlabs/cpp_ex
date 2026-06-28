@@ -30,6 +30,13 @@ SOFTWARE.
 
 #include <iostream>
 
-sum(float x, float y){
-    return x + y;
+
+int main() {
+
+  for (int i = 0; i < 10; ++i) {
+
+    int i = 30; // redefinition i syntax error
+    
+    }
+  
 }

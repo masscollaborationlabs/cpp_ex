@@ -30,8 +30,10 @@ SOFTWARE.
 
 #include <stdio.h>
 
-int foo(int a, int b, int c) {
+int main() {
 
-  return a + b + c;
+  for (int i = 0; i < 10; ++i) {
+    
+    }
   
 }
