@@ -35,7 +35,9 @@ int foo();
 
 int main() {
 
-  if (int x = foo()) { // foo has been initialized
+  int x = foo();
+  
+  if (x != 0) { 
     // ...
     }
   
