@@ -30,7 +30,7 @@ SOFTWARE.
 
 #include <stdio.h>
 
-foo(int a, int b, int c) {
+int foo(int a, int b, int c) {
 
   return a + b + c;
   
