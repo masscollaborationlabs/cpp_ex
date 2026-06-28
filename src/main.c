@@ -31,7 +31,7 @@ SOFTWARE.
 #include <stdio.h>
 
 int main(){
-    const x = 45;
+    static x = 45;
 }
 
 
