@@ -30,14 +30,8 @@ SOFTWARE.
 
 #include <stdio.h>
 
-int main() {
+int main(void) {
 
-  for (int i = 0; i < 10; ++i) {
-
-    int i = 30; // scope example C 
-
-    printf("%d ", i); 
+  const char * p = "necati";
     
-    }
-  
 }
