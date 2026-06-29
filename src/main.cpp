@@ -34,6 +34,6 @@ int foo()
 
 int main(void) {
 
-  bool b = "false";
+    char str[5] = "mert"; // legal 
     
 }
