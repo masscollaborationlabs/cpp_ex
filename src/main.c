@@ -32,6 +32,5 @@ SOFTWARE.
 
 int main(void) {
 
-  const char * p = "necati";
     
 }

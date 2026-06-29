@@ -30,13 +30,12 @@ SOFTWARE.
 
 #include <iostream>
 
+int foo()
 
-int foo();
+int main(void) {
 
-int main() {
+  bool b = false;
 
-  if (int x = foo()) { // foo has been initialized
-    // ...
-    }
-  
+  //  ++b;
+    
 }
