@@ -28,12 +28,12 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 **/
 
-#include <iostream>
+#include <ctime>
 
-int foo()
+int main() {
 
-int main(void) {
+  time_t sec = time(0);
 
-    char str[5] = "mert"; // legal 
-    
+  tm* p = localtime(&sec);
+  
 }
