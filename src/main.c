@@ -32,5 +32,6 @@ SOFTWARE.
 
 int main(void) {
 
+  char str[4] = "mert"; // legal but it is not null terminated byte stream 
     
 }

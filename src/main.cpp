@@ -34,8 +34,6 @@ int foo()
 
 int main(void) {
 
-  bool b = false;
-
-  //  ++b;
+  bool b = "false";
     
 }
